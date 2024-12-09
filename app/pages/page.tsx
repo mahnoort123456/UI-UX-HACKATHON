@@ -10,7 +10,7 @@ const SingleProductPage = () => {
       <Image
         alt="ecommerce"
         className="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded"
-        src={`require("@/public/image/Image (2).png")`}
+        src={require("@/public/image/Image (2).png")}
         width={675}
         height={607}
       />
@@ -42,7 +42,7 @@ const SingleProductPage = () => {
           <button className="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">
   
  <Image
- src={`require('@/public/image/Button (2).png')`}
+ src={require('@/public/image/Button (2).png')}
  alt=""
  width={180}
  className='rounded'
@@ -73,7 +73,7 @@ const SingleProductPage = () => {
       <div className="flex flex-col sm:flex-row lg:flex-row justify-between gap-8">
         <div className="text-center">
           <Image
-            src={`require('@/public/image/Group 112 (1).png')`}
+            src={require('@/public/image/Group 112 (1).png')}
             alt="1"
             width={263}
             height={306}
@@ -83,7 +83,7 @@ const SingleProductPage = () => {
         </div>
         <div className="text-center">
           <Image
-            src={`require('@/public/image/Group 113.png')`}
+            src={require('@/public/image/Group 113.png')}
             alt="2"
             width={263}
             height={306}
@@ -93,7 +93,7 @@ const SingleProductPage = () => {
         </div>
         <div className="text-center">
           <Image
-            src={`require('@/public/image/Group 114.png')`}
+            src={require('@/public/image/Group 114.png')}
             alt="3"
             width={263}
             height={306}
@@ -103,7 +103,7 @@ const SingleProductPage = () => {
         </div>
         <div className="text-center">
           <Image
-            src={`require('@/public/image/Group 115.png')`}
+            src={require('@/public/image/Group 115.png')}
             alt="3"
             width={263}
             height={306}
@@ -112,7 +112,7 @@ const SingleProductPage = () => {
           </div>
           <div className="text-center">
           <Image
-            src={`require('@/public/image/Group 116.png')`}
+            src={require('@/public/image/Group 116.png')}
             alt="3"
             width={263}
             height={306}
