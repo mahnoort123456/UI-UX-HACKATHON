@@ -28,7 +28,7 @@ const ProductCard = ({ product }: { product: Product }) => (
       )}
       <Link href={`/product/${product.id}`}>
       <Image
-          src={require("@/public/image/Image (3).png")}
+          src={product.image}
           alt={product.title}
           height={400}
           width={400}
@@ -75,7 +75,7 @@ export default function OurProduct() {
       id: 1,
       title: "Library Stool Chair",
       price: 20,
-      image: "/public/image/Image (4).png",
+      image: "/public/image/Image (3).png",
       isNew: true,
     },
     {
@@ -83,7 +83,7 @@ export default function OurProduct() {
       title: "Library Stool Chair",
       price: 20,
       originalPrice: 30,
-      image: "/02.jpg",
+      image: "/public/image./Image (4).png",
       isSale: true,
     },
     { id: 3, title: "Library Stool Chair", price: 20, image: "/03.jpg" },
