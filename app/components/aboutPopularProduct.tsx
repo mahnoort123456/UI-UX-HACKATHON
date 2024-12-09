@@ -11,7 +11,7 @@ const AboutPopularProduct = () => {
       <div className="flex flex-col sm:flex-row lg:flex-row justify-between gap-8">
         <div className="text-center">
           <Image
-            src={`require("@/public/image/Large.png")`}
+            src={require("@/public/image/Large.png")}
             alt="1"
             width={590}
             height={375}
@@ -22,7 +22,7 @@ const AboutPopularProduct = () => {
         </div>
         <div className="text-center">
           <Image
-            src={`require('@/public/image/Parent.png')`}
+            src={require('@/public/image/Parent.png')}
             alt="2"
             width={305}
             height={375}
@@ -33,7 +33,7 @@ const AboutPopularProduct = () => {
         </div>
         <div className="text-center">
           <Image
-            src={`require("../../public/image/Photo.png")`}
+            src={require("../../public/image/Photo.png")}
             alt="3"
             width={305}
             height={375}
