@@ -68,7 +68,7 @@ export default function OurProduct() {
       id: 1,
       title: "Library Stool Chair",
       price: 20,
-      image: "/Image (3).png",
+      image: "/Image (10).png",
       isNew: true,
     },
     {
@@ -76,7 +76,7 @@ export default function OurProduct() {
       title: "Library Stool Chair",
       price: 20,
       originalPrice: 30,
-      image: "/Image (4).png",
+      image: "/Image (11).png",
       isSale: true,
     },
     { id: 3, title: "Library Stool Chair", price: 20, image: "/03.jpg" },
