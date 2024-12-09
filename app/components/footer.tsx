@@ -144,7 +144,7 @@ const Footer = () => {
       </p>
       <span className="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
         <Image
-        src={`require('@/public/image/Group 13.png')`}
+        src={require('@/public/image/Group 13.png')}
         alt=''
         className='bg-white'/>
         
