@@ -1,5 +1,9 @@
 import React from 'react'
-
+import { FaTruck } from "react-icons/fa";
+import { FaCheck } from "react-icons/fa";
+import { IoFileTrayOutline } from "react-icons/io5";
+import { BiSolidLeaf } from "react-icons/bi";
+import Image from "next/image";
 
 const Aboutpage = () => {
     return (
