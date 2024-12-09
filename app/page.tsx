@@ -1,5 +1,6 @@
 import FeaturedProductsPage from "./components/featured";
 import HeroPage from "./components/hero";
+import OurProduct from "./components/ourProducts";
 
 
 export default function Home() {
@@ -7,6 +8,7 @@ export default function Home() {
   <div>
     <HeroPage/>
     <FeaturedProductsPage/>
+    <OurProduct/>
   </div>
   );
 }
