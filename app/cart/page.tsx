@@ -14,7 +14,7 @@ const Cart = () => {
           <div className="flex items-center justify-between bg-white p-4 rounded-lg shadow-md mb-4">
             <div className="flex items-center space-x-4">
               <div className="w-24 h-24 bg-orange-200 rounded">
-                <Image src={`require("@/public/image/Frame.png")`} alt="." width={150} height={150} />
+                <Image src={require("@/public/image/Frame.png")} alt="." width={150} height={150} />
               </div>
               <div>
                 <h3 className="text-[16px] font-normal text-[#272343] mb-3">
