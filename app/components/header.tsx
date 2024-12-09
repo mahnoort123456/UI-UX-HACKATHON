@@ -12,7 +12,7 @@ const HeaderPage = () => {
   <div className="container mx-auto text-white flex flex-wrap p-5 flex-col md:flex-row items-center">
   <span>
                 <Image
-        src={`require('@/public/image/check 1.png')`}
+        src={require('@/public/image/check 1.png')}
         alt=''
         width={16}
         className='mr-2'
@@ -37,14 +37,14 @@ const HeaderPage = () => {
   <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
     <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
       <Image
-      src={`require('@/public/image/Logo Icon.png')`} 
+      src={require('@/public/image/Logo Icon.png')} 
       alt=''
       />
       <span className="ml-3 text-2xl font-semibold">Comforty</span>
     </a>
     <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center text-[#000] font-medium">
       
-      <Link href={'/cart'} className=" hover:text-[#272343] flex mr-2 gap-2"><Image src={`require('@/public/image/Info.png')`} alt=''/><Image src={`require('@/public/image/No.png')`} alt=''/></Link>
+      <Link href={'/cart'} className=" hover:text-[#272343] flex mr-2 gap-2"><Image src={require('@/public/image/Info.png')} alt=''/><Image src={require('@/public/image/No.png')} alt=''/></Link>
     </nav>
    
   </div>
