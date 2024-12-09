@@ -28,21 +28,14 @@ const ProductCard = ({ product }: { product: Product }) => (
       )}
       <Link href={`/product/${product.id}`}>
       <Image
-          src={product.image}
+          src={require("@/public/image/Image (3).png")}
           alt={product.title}
           height={400}
           width={400}
           className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
           aria-label={`View details of ${product.title}`}
         />
-          <Image
-          src={require('@/public/image/Image (3).png')}
-          alt={product.title}
-          height={400}
-          width={400}
-          className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
-          aria-label={`View details of ${product.title}`}
-        />
+         
       </Link>
     </div>
     <div className="mt-4 flex items-center justify-between">
@@ -75,7 +68,7 @@ export default function OurProduct() {
       id: 1,
       title: "Library Stool Chair",
       price: 20,
-      image: "/Image (3).png",
+      image: "/public/image/Image (4).png",
       isNew: true,
     },
     {
@@ -83,16 +76,16 @@ export default function OurProduct() {
       title: "Library Stool Chair",
       price: 20,
       originalPrice: 30,
-      image: "/Image (4).png",
+      image: "/02.jpg",
       isSale: true,
     },
-    { id: 3, title: "Library Stool Chair", price: 20, image: "/(5).jpg" },
-    { id: 4, title: "Library Stool Chair", price: 20, image: "/(6).jpg" },
+    { id: 3, title: "Library Stool Chair", price: 20, image: "/03.jpg" },
+    { id: 4, title: "Library Stool Chair", price: 20, image: "/04.jpg" },
     {
       id: 5,
       title: "Library Stool Chair",
       price: 20,
-      image: "/(7).jpg",
+      image: "/05.jpg",
       isNew: true,
     },
     {
@@ -100,11 +93,11 @@ export default function OurProduct() {
       title: "Library Stool Chair",
       price: 20,
       originalPrice: 30,
-      image: "/(8).jpg",
+      image: "/06.jpg",
       isSale: true,
     },
-    { id: 7, title: "Library Stool Chair", price: 20, image: "/(9).jpg" },
-    { id: 8, title: "Library Stool Chair", price: 20, image: "/(10).jpg" },
+    { id: 7, title: "Library Stool Chair", price: 20, image: "/07.jpg" },
+    { id: 8, title: "Library Stool Chair", price: 20, image: "/01.jpg" },
   ];
 
   return (
