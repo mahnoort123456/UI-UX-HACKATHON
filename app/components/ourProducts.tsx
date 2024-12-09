@@ -68,7 +68,7 @@ export default function OurProduct() {
       id: 1,
       title: "Library Stool Chair",
       price: 20,
-      image: "/Image (10).png",
+      image: "/Image (3).png",
       isNew: true,
     },
     {
@@ -76,16 +76,16 @@ export default function OurProduct() {
       title: "Library Stool Chair",
       price: 20,
       originalPrice: 30,
-      image: "/Image (11).png",
+      image: "/Image (4).png",
       isSale: true,
     },
-    { id: 3, title: "Library Stool Chair", price: 20, image: "/03.jpg" },
-    { id: 4, title: "Library Stool Chair", price: 20, image: "/04.jpg" },
+    { id: 3, title: "Library Stool Chair", price: 20, image: "/Image (10).png" },
+    { id: 4, title: "Library Stool Chair", price: 20, image: "/Image (11).png" },
     {
       id: 5,
       title: "Library Stool Chair",
       price: 20,
-      image: "/05.jpg",
+      image: "/Image (5).png",
       isNew: true,
     },
     {
@@ -93,11 +93,11 @@ export default function OurProduct() {
       title: "Library Stool Chair",
       price: 20,
       originalPrice: 30,
-      image: "/06.jpg",
+      image: "/Image (12).png",
       isSale: true,
     },
-    { id: 7, title: "Library Stool Chair", price: 20, image: "/07.jpg" },
-    { id: 8, title: "Library Stool Chair", price: 20, image: "/01.jpg" },
+    { id: 7, title: "Library Stool Chair", price: 20, image: "/Image (13).png" },
+    { id: 8, title: "Library Stool Chair", price: 20, image: "/Image (3).png" },
   ];
 
   return (
