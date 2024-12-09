@@ -69,7 +69,7 @@ const ProductCard = ({ product }: { product: Product }) => (
   </div>
 );
 
-export default function AllProduct() {
+export default function OurProduct() {
   const products: Product[] = [
     {
       id: 1,
