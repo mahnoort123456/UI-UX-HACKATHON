@@ -62,6 +62,8 @@ import React from "react";
 import { Poppins } from "next/font/google";
 import { FaMapMarkerAlt, FaPhone } from "react-icons/fa";
 import { GoClockFill } from "react-icons/go";
+import { FaPhoneAlt } from "react-icons/fa";
+
 import ContactSection from "../components/contactSection";
 
 
@@ -98,7 +100,8 @@ const ContactPage = () => {
           </div>
 
           <div className="flex items-start space-x-4">
-            <FaPhone className="text-black h-[27.59px] mt-1" />
+                <FaPhoneAlt  className="text-black h-[27.59px] mt-1"/>
+          
             <div>
               <h2
                 className={`${poppins.className} text-black  text-[20px] sm:text-[24px] font-medium`}
