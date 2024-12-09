@@ -98,6 +98,11 @@ export default function AllProduct() {
     },
     { id: 7, title: "Library Stool Chair", price: 20, image: "/Image (13).png" },
     { id: 8, title: "Library Stool Chair", price: 20, image: "/Image (8).png" },
+    { id: 9, title: "Library Stool Chair", price: 20, image: "/Image (5).png" },
+    { id: 10, title: "Library Stool Chair", price: 20, image: "/Image (9).png" },
+    { id: 11, title: "Library Stool Chair", price: 20, image: "/Image (10).png" },
+    
+    { id: 12, title: "Library Stool Chair", price: 20, image: "/Image (7).png" },
   ];
 
   return (
