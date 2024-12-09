@@ -27,14 +27,7 @@ const ProductCard = ({ product }: { product: Product }) => (
         </Badge>
       )}
       <Link href={`/product/${product.id}`}>
-      <Image
-          src={require("@/public/image/Image (3).png")}
-          alt={product.title}
-          height={400}
-          width={400}
-          className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
-          aria-label={`View details of ${product.title}`}
-        />
+    
           <Image
           src={product.image}
           alt={product.title}
@@ -75,7 +68,7 @@ export default function AllProduct() {
       id: 1,
       title: "Library Stool Chair",
       price: 20,
-      image: "/public/image/Image (4).png",
+      image: "/Image (3).png",
       isNew: true,
     },
     {
@@ -83,16 +76,16 @@ export default function AllProduct() {
       title: "Library Stool Chair",
       price: 20,
       originalPrice: 30,
-      image: "/02.jpg",
+      image: "/Image (9).png",
       isSale: true,
     },
-    { id: 3, title: "Library Stool Chair", price: 20, image: "/03.jpg" },
-    { id: 4, title: "Library Stool Chair", price: 20, image: "/04.jpg" },
+    { id: 3, title: "Library Stool Chair", price: 20, image: "/Image (10).png" },
+    { id: 4, title: "Library Stool Chair", price: 20, image: "/Image (11).png" },
     {
       id: 5,
       title: "Library Stool Chair",
       price: 20,
-      image: "/05.jpg",
+      image: "/Image (6).png",
       isNew: true,
     },
     {
@@ -100,17 +93,17 @@ export default function AllProduct() {
       title: "Library Stool Chair",
       price: 20,
       originalPrice: 30,
-      image: "/06.jpg",
+      image: "/Image (12).png",
       isSale: true,
     },
-    { id: 7, title: "Library Stool Chair", price: 20, image: "/07.jpg" },
-    { id: 8, title: "Library Stool Chair", price: 20, image: "/01.jpg" },
+    { id: 7, title: "Library Stool Chair", price: 20, image: "/Image (13).png" },
+    { id: 8, title: "Library Stool Chair", price: 20, image: "/Image (8).png" },
   ];
 
   return (
     <div className="container mx-auto px-4 py-20">
-      <h1 className="text-3xl text-center font-semibold text-[#1C1B1F] tracking-tight mb-8">
-        Our Products
+      <h1 className="text-3xl font-semibold text-[#1C1B1F] tracking-tight mb-8">
+        All Products
       </h1>
       <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
         {products.map((product) => (
