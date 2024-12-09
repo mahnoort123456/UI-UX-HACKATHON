@@ -36,7 +36,7 @@ const ProductCard = ({ product }: { product: Product }) => (
           aria-label={`View details of ${product.title}`}
         />
           <Image
-          src={require("@/public/image/Image (4).png")}
+          src={product.image}
           alt={product.title}
           height={400}
           width={400}
@@ -75,7 +75,7 @@ export default function AllProduct() {
       id: 1,
       title: "Library Stool Chair",
       price: 20,
-      image: "/01.jpg",
+      image: "/public/image/Image (4).png",
       isNew: true,
     },
     {
