@@ -28,7 +28,7 @@ const ProductCard = ({ product }: { product: Product }) => (
       )}
       <Link href={`/product/${product.id}`}>
       <Image
-          src={`require("@/public/image/Image (3).png")`}
+          src={require("@/public/image/Image (3).png")}
           alt={product.title}
           height={400}
           width={400}
@@ -36,7 +36,7 @@ const ProductCard = ({ product }: { product: Product }) => (
           aria-label={`View details of ${product.title}`}
         />
           <Image
-          src={`require("@/public/image/Image (4).png")`}
+          src={require("@/public/image/Image (4).png")}
           alt={product.title}
           height={400}
           width={400}
