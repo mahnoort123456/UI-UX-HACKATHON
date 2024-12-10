@@ -189,7 +189,7 @@ export default function Footer() {
         {/* Footer Bottom */}
         <div className="flex justify-between items-center flex-wrap text-[#9A9CAA] border-t pt-8">
           <p>
-            © 2021 - Blogy - Designed & Developed by{" "}
+            @ 2021 - Blogy - Designed & Developed by{" "}
             <a href="#" className="text-[#272343] hover:underline">
               Zakirsoft
             </a>
