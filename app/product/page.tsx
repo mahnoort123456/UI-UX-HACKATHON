@@ -149,7 +149,7 @@ export default function AllProduct() {
 <h1 className="text-3xl text-center font-semibold text-[#1C1B1F] tracking-tight mb-8">
         Follow Products And Discounts On Instagram
       </h1>
-<div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-6">
+<div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-6">
   <Image
   src={require('@/public/Image (6).png')}
   alt=""
