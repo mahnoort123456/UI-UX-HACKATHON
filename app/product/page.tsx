@@ -115,6 +115,86 @@ export default function AllProduct() {
           <ProductCard key={product.id} product={product} />
         ))}
       </div>
+
+ <div className="bg-white">
+<section className="text-gray-600 body-font">
+  <div className="container px-5 py-24 mx-auto">
+    <div className="flex flex-col text-center w-full mb-12">
+      <h1 className="sm:text-3xl text-3xl font-bold title-font mb-4 text-gray-900">
+        Or Subscribe To The NewsLetter
+      </h1>
+      
+    </div>
+    <div className="flex lg:w-2/3 w-full sm:flex-row flex-col mx-auto px-8 sm:space-x-4 sm:space-y-0 space-y-4 sm:px-0 items-end">
+      <div className="relative flex-grow w-full">
+        
+        <input
+          type="text"
+          id="full-name"
+          name="full-name"
+          placeholder="Email Adress..."
+          className="w-full bg-gray-100  rounded underline decoration-black  focus:ring-2  text-base outline-none text-black-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+        />
+      </div>
+     
+      <button
+       className="text-gray-400 underline decoration-black  border-0 py-2 px-8  rounded text-lg">
+        SUBMIT
+      </button>
+      </div>
+      </div>
+
+
+      <div className="container mx-auto px-4 py-20">
+<h1 className="text-3xl text-center font-semibold text-[#1C1B1F] tracking-tight mb-8">
+        Follow Products And Discounts On Instagram
+      </h1>
+<div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-6">
+  <Image
+  src={require('@/public/Image (6).png')}
+  alt=""
+  width={200}
+  height={200}
+  />
+  <Image
+  src={require('@/public/Image (5).png')}
+  alt=""
+  width={200}
+  height={200}
+  />
+  <Image
+  src={require('@/public/Image (9).png')}
+  alt=""
+  width={200}
+  height={200}
+  />
+  <Image
+  src={require('@/public/Image (3).png')}
+  alt=""
+  width={200}
+  height={200}
+  />
+  <Image
+  src={require('@/public/Image (10).png')}
+  alt=""
+  width={200}
+  height={200}
+  />
+  <Image
+  src={require('@/public/Image (7).png')}
+  alt=""
+  width={200}
+  height={200}
+  />
+</div>
+</div>
+
+</section>
+
+
+
+    </div>
+      
     </div>
   );
 }
